@@ -4,7 +4,7 @@
   "newProjectRoot": "projects",
   "projects": {
     "blog": {
-      "projectType": "applications is the new versuion",
+      "projectType": "applications",
       "schematics": {},
       "root": "",
       "sourceRoot": "src",
