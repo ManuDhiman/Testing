@@ -1,0 +1,32 @@
+<!-- <h1 *ngIf="show else elseblock" >
+    If Condition
+</h1>
+
+<ng-template #elseblock>
+    <h1>Else Condition</h1>
+</ng-template> -->
+
+<!-- <h3 *ngFor="let item of UserDetails">{{item.name}} - {{item.ID}} - {{item.Phone}} - {{item.email}}</h3> -->
+
+<!-- <h1>Login</h1>
+<h2 *ngFor="let item of users" [style.color]="color" [style.backgroundColor]="bgcolor">{{item}}</h2>
+<button (click)="updatecolor()">update Color</button> -->
+
+
+<form #basicForm="ngForm" (ngSubmit)="getData(basicForm.value)">
+
+    <input type="text" ngModel name="user" placeholder="Enter Name">
+    <br /><br />
+    <input type="text" ngModel name="email" placeholder="Enter email">
+    <br /><br />
+    <input type="password" ngModel name="password" placeholder="Enter password">
+    <br /><br />
+    <button>Register</button>
+
+</form>
+
+<ul>
+    <li>{{userData.user}}</li>
+    <li>{{userData.email}}</li>
+    <li>{{userData.password}}</li>
+</ul>
